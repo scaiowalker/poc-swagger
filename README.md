@@ -1,2 +1,11 @@
 # poc-spring-boot
-http://localhost:8080/swagger.html to access Swagger-UI interface.  
+
+it's a Java 8 project.
+
+to run:
+mvn spring-boot:run
+
+to access Swagger-UI interface:
+http://localhost:8080/swagger.html 
+
+
