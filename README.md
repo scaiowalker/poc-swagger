@@ -1,2 +1,2 @@
 # poc-spring-boot
-[POC] Spring Boot
+http://localhost:8080/swagger.html to access Swagger-UI interface.  
