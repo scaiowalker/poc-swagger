@@ -25,13 +25,13 @@ public class HelloControllerTest {
 
 	@Before
 	public void setUp() throws Exception {
-		mvc = MockMvcBuilders.standaloneSetup(new NameController()).build();
+		mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();
 	}
 
 	@Test
 	public void getHello() throws Exception {
 		mvc.perform(MockMvcRequestBuilders.get("/api/hello").accept(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk())
-				.andExpect(content().string(equalTo("Hello ROMA!")));
+				.andExpect(content().string(equalTo("Hello ROMA")));
 	}
 }
