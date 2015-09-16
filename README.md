@@ -1,4 +1,4 @@
-# poc-spring-boot
+# poc-swagger
 
 it's a Java 8 project.
 
